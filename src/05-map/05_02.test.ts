@@ -48,10 +48,10 @@ test("list of street titles", () => {
     expect(streets[2]).toBe("Happy street");
 })
 
-test("create gtreeting messages for streets", () => {
-    let messages = createMessages(city.houses);
-    expect(messages.length).toBe(3);
-    expect(messages[0]).toBe("Hello from White street");
-    expect(messages[1]).toBe("Hello from Happy street");
-    expect(messages[2]).toBe("Hello from Happy street");
-})
+// test("create gtreeting messages for streets", () => {
+//     let messages = createMessages(city.houses);
+//     expect(messages.length).toBe(3);
+//     expect(messages[0]).toBe("Hello from White street");
+//     expect(messages[1]).toBe("Hello from Happy street");
+//     expect(messages[2]).toBe("Hello from Happy street");
+// })
